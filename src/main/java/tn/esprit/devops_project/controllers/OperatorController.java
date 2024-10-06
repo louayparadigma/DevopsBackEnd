@@ -34,7 +34,7 @@ public class OperatorController {
 	}
 
 	@PutMapping("/operator")
-	public Operator modifyOperateur(@RequestBody Operator operator) {
+	public Operator modifyOperator(@RequestBody Operator operator) {
 		return operatorService.updateOperator(operator);
 	}
 

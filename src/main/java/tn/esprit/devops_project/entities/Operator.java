@@ -25,7 +25,7 @@ public class Operator implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long idOperateur;
+	Long idOperator;
 	String fname;
 	String lname;
 	String password;
