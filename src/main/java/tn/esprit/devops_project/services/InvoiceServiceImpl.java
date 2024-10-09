@@ -63,6 +63,16 @@ public class InvoiceServiceImpl implements IInvoiceService {
 	public float getTotalAmountInvoiceBetweenDates(Date startDate, Date endDate) {
 		return invoiceRepository.getTotalAmountInvoiceBetweenDates(startDate, endDate);
 	}
+	/*
+	@Override
+	public Invoice createInvoice(Invoice invoice) {
+		return invoiceRepository.save(invoice);
+	}
 
+	@Override
+	public void deleteInvoice(Long invoiceId) {
+		invoiceRepository.deleteById(invoiceId);
+	}
+*/
 
 }
